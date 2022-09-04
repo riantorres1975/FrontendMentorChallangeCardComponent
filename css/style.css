@@ -35,7 +35,6 @@ body {
 
 .card__image .image_1{
   display: block;
-  inherits: none;
   width: 100%;
   border-radius:12px 12px 0 0;
 }

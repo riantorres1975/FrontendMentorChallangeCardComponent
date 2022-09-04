@@ -15,16 +15,11 @@
 
 body {
   background-color: var(--cream);
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  min-height: 100vh;
-  flex-direction: column; 
 }
 
 .container {
-  margin: 20px auto;
-  padding: 0  15px;
+  margin:0 auto;
+  padding: 0  10px;
   width: 375px;
 }
 
@@ -124,7 +119,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: hsl(228, 45%, 44%);
+  color: hsl(var(--dark-grayish-blue));
 }
 
 /*Desktop Desing */
@@ -136,7 +131,6 @@ body {
   .card{
     margin-top: 100px;
     display: flex;
-    flex-direction: row;
   }
 
   .card__image {
